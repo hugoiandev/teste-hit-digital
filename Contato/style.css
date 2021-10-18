@@ -58,6 +58,7 @@ body {
 
 .container-nav .title h1 {
     font-family: var(--font-principal);
+    font-weight: normal;
     color: white;
     margin-bottom: 3px;
     font-size: 22px;
