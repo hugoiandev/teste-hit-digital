@@ -14,7 +14,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: #373735;
+    background: #2D2D2D;
 }
 
 .container {
@@ -39,10 +39,12 @@ body {
 .container-nav .nav nav button {
     width: 200px;
     height: 40px;
-    font-size: 1rem;
+    font-size: 12px;
     font-family: var(--font-principal);
+    text-transform: uppercase;
     color: white;
     background: linear-gradient(#EA916B, #E05A4D);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     border: none;
     border-radius: 0.625rem;
     cursor: pointer;
@@ -58,6 +60,7 @@ body {
     font-family: var(--font-principal);
     color: white;
     margin-bottom: 3px;
+    font-size: 22px;
 }
 
 .container-nav .title::after {
@@ -78,6 +81,7 @@ body {
     max-width: 100%;
     background: #EA916B;
     border-radius: 0.625rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
 }
 
 .contato form {
@@ -95,10 +99,11 @@ body {
 
 .contato form input::placeholder {
     font-family: var(--font-principal);
-    font-size: 0.813rem;
+    font-size: 13px;
 }
 
 .contato form textarea {
+    font-family: var(--font-principal);
     grid-column: span 2;
     border: none;
     padding: 15px 0 0 20px;
@@ -108,7 +113,7 @@ body {
 
 .contato form textarea::placeholder {
     font-family: var(--font-principal);
-    font-size: 0.813rem;
+    font-size: 13px;
 }
 
 .contato form .btn-enviar {
@@ -120,7 +125,8 @@ body {
 
 .contato form .btn-enviar button {
     font-family: var(--font-principal);
-    font-size: 1rem;
+    font-size: 12px;
+    text-transform: uppercase;
     width: 160px;
     height: 40px;
     display: flex;
@@ -128,6 +134,7 @@ body {
     border: none;
     border-radius: 0.625rem;
     background: #373735;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     color: white;
     cursor: pointer;
 }
